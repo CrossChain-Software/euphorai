@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { connect } from "./redux/blockchain/blockchainActions";
 import { fetchData } from "./redux/data/dataActions";
+import store from './redux/store';
 import * as s from "./styles/globalStyles";
 import styled from "styled-components";
 import i1 from "./assets/images/example.png";

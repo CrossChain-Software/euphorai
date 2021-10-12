@@ -58,11 +58,11 @@ contract Euphorai is ERC721Enumerable, Ownable {
         uint256 _price, 
         uint256 _buyLimit, 
         string memory _uri, 
-        address payable _dev,
-        address _vrfCoordinator,
-        address _linkToken,
-        bytes32 _keyHash,
-        uint256 _fee
+        address payable _dev
+    //    address _vrfCoordinator,
+    //    address _linkToken,
+    //    bytes32 _keyHash,
+    //    uint256 _fee
     ) 
     ERC721(_name, _symbol) {
         maxSupply = _maxSupply;
