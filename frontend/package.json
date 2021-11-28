@@ -1,15 +1,33 @@
 {
-  "name": "frontend",
+  "name": "euphorai",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@chainlink/contracts": "^0.2.2",
+    "@openzeppelin/contracts": "^4.2.0",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "@truffle/hdwallet-provider": "^1.0.37",
+    "all": "^0.0.0",
+    "chai": "^4.3.4",
+    "chai-as-promised": "^7.1.1",
+    "dotenv": "^10.0.0",
+    "euphorai-contract": "file:../artifacts/contracts/EuphoraiNoChainlink.sol/EuphoraiNoChainlink.json",
+    "ipfs-http-client": "^52.0.0",
     "react": "^17.0.2",
+    "react-canvas-draw": "^1.1.1",
     "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3",
-    "web-vitals": "^1.0.1"
+    "react-redux": "^7.2.4",
+    "react-scripts": "^3.4.4",
+    "react-signature-canvas": "^1.0.3",
+    "redux": "^4.1.1",
+    "redux-thunk": "^2.3.0",
+    "styled-components": "^5.3.0",
+    "truffle-hdwallet-provider": "^1.0.6",
+    "web-vitals": "^1.0.1",
+    "web3": "^1.5.1",
+    "web3-eth-contract": "^1.5.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -34,5 +52,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "solidity-coverage": "^0.6.7",
+    "truffle-plugin-verify": "^0.5.14"
   }
 }
